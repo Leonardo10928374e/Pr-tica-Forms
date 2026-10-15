@@ -1,0 +1,57 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 10px;
+    color: #111;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-bottom: 25px;
+    border: 1px solid #aaa;
+    padding: 12px;
+}
+
+.campo {
+    margin: 7px 0;
+}
+
+.campo label {
+    display: inline-block;
+    width: 75px;
+}
+
+.opcoes {
+    margin: 12px 0;
+}
+
+.opcoes label {
+    margin-right: 5px;
+}
+
+.curriculo {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 12%;
+    background-color: #aaa;
+    box-shadow: 0px 2px 2px black;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+option:hover {
+    box-shadow: 0px 2px 2px black;
+    display:flex;
+}

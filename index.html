@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Formulário</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" required>
+            </div>
+
+            <div class="campo">
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" required>
+            </div>
+
+            <div class="campo">
+                <label for="estado">Estado:</label>
+                <select name="estado" required>
+                    <option>Selecione</option>
+                    <br><br>
+                    <option>São Paulo</option>
+                    <br><br>
+                    <option>Rio de Janeiro</option>
+                    <br><br>
+                    <option>Minas Gerais</option>
+                    <br><br>
+                    <option>Paraná</option>
+                    <br><br>
+                    <option>Santa Catarina</option>
+                    <br><br>
+                    <option>Rio Grande do Sul</option>
+                    <br><br>
+                    <option>Bahia</option>
+                    <br><br>
+                    <option>Espírito Santo</option>
+                    <br><br>
+                    <option>Goiás</option>
+                    <br><br>
+                    <option>Distrito Federal</option>
+                    <br><br>
+                    <option>Pernambuco</option>
+                    <br><br>
+                    <option>Ceará</option>
+                    <br><br>
+                    <option>Amazonas</option>
+                    <br><br>
+                    <option>Pará</option>
+                    <br><br>
+                    <option>Mato Grosso</option>
+                    <br><br>
+                    <option>Mato Grosso do Sul</option>
+                    <br><br>
+                    <option>Paraíba</option>
+                    <br><br>
+                    <option>Rio Grande do Norte</option>
+                    <br><br>
+                    <option>Alagoas</option>
+                    <br><br>
+                    <option>Sergipe</option>
+                    <br><br>
+                    <option>Piauí</option>
+                    <br><br>
+                    <option>Maranhão</option>
+                    <br><br>
+                    <option>Tocantins</option>
+                    <br><br>
+                    <option>Rondônia</option>
+                    <br><br>
+                    <option>Acre</option>
+                    <br><br>
+                    <option>Amapá</option>
+                    <br><br>
+                    <option>Roraima</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados profissionais</legend>
+
+            <div class="opcoes">
+                <div>Natureza do Cargo</div>
+
+                <label>
+                    <input type="radio" name="cargo" value="Gerência" required>
+                    Gerência
+                </label>
+
+                <label>
+                    <input type="radio" name="cargo" value="Financeiro">
+                    Financeiro
+                </label>
+
+                <label>
+                    <input type="radio" name="cargo" value="Recepção">
+                    Recepção
+                </label>
+
+                <label>
+                    <input type="radio" name="cargo" value="Administrativo">
+                    Administrativo
+                </label>
+
+                <label>
+                    <input type="radio" name="cargo" value="Jurídico">
+                    Jurídico
+                </label>
+            </div>
+
+            <div class="opcoes">
+                <div>Área de interesse</div>
+
+                <label>
+                    <input type="checkbox" name="area" value="Computação">
+                    Computação
+                </label>
+
+                <label>
+                    <input type="checkbox" name="area" value="Biologia">
+                    Biologia
+                </label>
+
+                <label>
+                    <input type="checkbox" name="area" value="Meio Ambiente">
+                    Meio Ambiente
+                </label>
+
+                <label>
+                    <input type="checkbox" name="area" value="Engenharia">
+                    Engenharia
+                </label>
+
+                <label>
+                    <input type="checkbox" name="area" value="História">
+                    História
+                </label>
+            </div>
+
+            <div class="curriculo">
+                <label for="curriculo">Mini-currículo:</label>
+                <textarea name="curriculo" required></textarea>
+            </div>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+</body>
+
+</html>
